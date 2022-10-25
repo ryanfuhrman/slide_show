@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <img src="imgs/burrow.jpg" alt="" class="image show-img" />
+        <img src="imgs/tee.jpg" alt="" class="image hide-img" />
+        <img src="imgs/chido.jpg" alt="" class="image hide-img" />
+        <img src="imgs/jamarr.jpg" alt="" class="image hide-img" />
+        <img src="imgs/reader.jpg" alt="" class="image hide-img" />
+        <img src="imgs/teddyk.jpg" alt="" class="image hide-img" />
+      </div>
+      <div class="navigation">
+        <button class="arrow-back" onclick="previousImage()"><</button>
+        <ul class="dots">
+          <li class="dot solid"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
+        </ul>
+        <button class="arrow-forward" onclick="nextImage()">></button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
